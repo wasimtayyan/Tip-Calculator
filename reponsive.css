@@ -1,4 +1,4 @@
-@media(min-width : 400px){
+@media(min-width : 600px){
     .logo{
         margin: 2em;
     }
@@ -6,6 +6,9 @@
         flex-direction:row ;
         border-radius: 20px;
         margin: 4em;
+        max-width: 1200px;
+        justify-content: center;
+        align-items: center;
     }
     .tip{
         grid-template-columns: 1fr 1fr 1fr;

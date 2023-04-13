@@ -1,0 +1,32 @@
+@media(min-width : 400px){
+    .logo{
+        margin: 2em;
+    }
+    .tip-calculator{
+        flex-direction:row ;
+        border-radius: 20px;
+        margin: 4em;
+    }
+    .tip{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+          grid-template-areas: 
+             "tip5 tip10 tip15"
+            "tip25 tip50 tip-custom";
+    } 
+    .part-one{
+        padding: 1em;
+    } 
+    .result{
+        display: flex;
+        flex-direction: column;
+        padding: 2em 1em;
+    }
+    .tip-amount ,.total{
+        margin-top: 2em;
+        font-size: 1.2rem;
+    }
+    .reset{
+        margin-top: 7em;
+    }
+}

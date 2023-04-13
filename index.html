@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./reponsive.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <div class="logo">
+     <img src="./images/logo.svg" >
+  </div>
+<div class="tip-calculator">
+  <div class="part-one">
+    <label for="">Bill</label>
+    <input type="number" class="input bill-input" id="billInput">
+    <label for="" class="label"> Select Tip %</label>
+    <div class="tip">
+      <div class="tips tip5">5%</div>
+      <div class="tips tip10">10%</div>
+      <div class="tips tip15">15%</div>
+      <div class="tips tip25">25%</div>
+      <div class="tips tip50">50%</div>
+      <div><input type="number" class="tip-custom" placeholder="Custom" id="tip-custom"></div>
+    </div>
+    <div class="people-label">
+      <label for="" class="label">Number of People</label>
+      <label for="" id="zero">Can't be Zero</label>
+    </div>
+    <input type="number" class="input people-input" id=" peopleInput">
+  </div>
+      <div class="result">
+    <div class="tip-amount">
+      <div class="text">
+      <b>Tip Amount</b>
+      <p>/person</p>
+    </div>
+    <div class="amount" id="tip-amount">$4.27</div>
+    </div>
+    <div class="total">
+      <div class="text">
+      <b>total </b>
+      <p>/person</p>
+    </div>
+    <div class="amount" id="total-amount">$32.79</div>
+    </div>
+    <div class="reset">RESET</div>
+  </div>  
+  
+  </div>
+  
+<script defer src="./script.js"></script>
+</body>
+</html>
